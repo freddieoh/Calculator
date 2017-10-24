@@ -25,7 +25,7 @@ class ViewController: UIViewController {
   var displayValue: Double
   {
     get {
-      return Double(digitDisplayLabel.text)!
+      return Double(digitDisplayLabel.text!)!
     }
     set {
       digitDisplayLabel.text = String(newValue)
